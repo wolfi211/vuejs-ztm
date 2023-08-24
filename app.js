@@ -1,1 +1,1 @@
-Vue.createApp({});
+Vue.createApp({}).mount("#app");
