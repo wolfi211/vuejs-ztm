@@ -5,11 +5,18 @@ const vm = Vue.createApp({
       lastName: "Wolf",
       url: "https://google.com",
       rawUrl: '<a href="https://google.com" target="_blank">Google</a>',
+      age: 20,
     };
   },
   methods: {
     fullName() {
       return `${this.firstName} ${this.lastName.toUpperCase()}`;
+    },
+    increment() {
+      this.age++;
+    },
+    updateLastName(event) {
+      this.lastName = event.target.value;
     },
   },
 }).mount("#app");
