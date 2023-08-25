@@ -1,4 +1,4 @@
-Current bookmark: Section 2, 21. Passing on Data with Events
+Current bookmark: Section 2. 28. Passing on Data with Events
 
 directive shorthands:
 
